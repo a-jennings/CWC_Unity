@@ -2248,6 +2248,8 @@ GameObject:
   - component: {fileID: 7322014088770801349}
   - component: {fileID: 7322014089024609568}
   - component: {fileID: 114912409694255638}
+  - component: {fileID: 65649791368862206}
+  - component: {fileID: 114605790222862812}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -2348,6 +2350,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6babb087d5fb82142bf14148893ac242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &65649791368862206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322014088761282151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08294675, y: 0.23254983, z: 0.2741582}
+  m_Center: {x: 0.0008301884, y: 0.097087145, z: 0.03467415}
+--- !u!114 &114605790222862812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322014088761282151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22451270d52607f44b11913616c3014b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7322014088761283017
@@ -4870,6 +4897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7322014088760931871}
   - component: {fileID: 7322014088774989113}
+  - component: {fileID: 6211626125963527610}
   m_Layer: 0
   m_Name: SM_Beagle_01
   m_TagString: Untagged
@@ -4985,6 +5013,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000018626451, y: -0.03184109, z: 0.09069148}
     m_Extent: {x: 0.053976044, y: 0.101537995, z: 0.13445887}
   m_DirtyAABB: 0
+--- !u!65 &6211626125963527610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322014088761347111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06956747, y: 0.20307598, z: 0.26891774}
+  m_Center: {x: 0.00079969317, y: 0.10153799, z: -0.0011989772}
 --- !u!1 &7322014088761347117
 GameObject:
   m_ObjectHideFlags: 0
